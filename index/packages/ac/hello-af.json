@@ -1,0 +1,1 @@
+{"description":"Sample skill for the aftest registry","latest_version":"0.1.0","name":"hello-af","repo":{"branch":"main","subdir":"hello-af","url":"https://github.com/4ursmile/aftest"},"type":"skill","versions":[{"ref":"8acb47c7adae1382e308f369fdf2e4c40571b184","version":"0.1.0"}]}
