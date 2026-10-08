@@ -1,0 +1,11 @@
+[package]
+name = "e2e-notes"
+version = "0.1.0"
+type = "skill"
+description = "Demo skill published end to end through the hub."
+tags = ["demo", "e2e"]
+
+[git]
+url = "https://github.com/4ursmile/aftest.git"
+branch = "main"
+subdir = "e2e-notes"
