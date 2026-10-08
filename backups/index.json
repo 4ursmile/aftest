@@ -1,0 +1,156 @@
+{
+ "app": "aihub",
+ "created": "2026-10-08T15:13:32Z",
+ "engine": "sqlite",
+ "events_chunk": 20000,
+ "files": [
+  {
+   "complete": false,
+   "path": "backups/db/users.sqlite.gz",
+   "rows": 22,
+   "sha256": "667b55ff539585a3c7dfb1ea43f6601c2d9c85c29b7530e3939b4705f7eac760",
+   "size": 2229,
+   "table": "users"
+  },
+  {
+   "complete": false,
+   "path": "backups/db/avatars.sqlite.gz",
+   "rows": 1,
+   "sha256": "2bd1bce8a172ef0f479755172d3d2917edeeb0e46980803a08718fbf72ff2665",
+   "size": 310,
+   "table": "avatars"
+  },
+  {
+   "complete": false,
+   "path": "backups/db/groups.sqlite.gz",
+   "rows": 3,
+   "sha256": "ed182bc1aed05d984b09db75e4bba92d9adaa558afacfe13dd2329c7c53bf9cd",
+   "size": 286,
+   "table": "groups"
+  },
+  {
+   "complete": false,
+   "path": "backups/db/group_members.sqlite.gz",
+   "rows": 6,
+   "sha256": "99d55b46b8a6eb9e960acbd7fd95a302121236595aa208f8991c679c7a168ca4",
+   "size": 228,
+   "table": "group_members"
+  },
+  {
+   "complete": false,
+   "path": "backups/db/package_access.sqlite.gz",
+   "rows": 1,
+   "sha256": "2866e92ec63f37d77e8d3457ee4c8c2c84ace7ae546824c8e7ca1d6cb355c682",
+   "size": 208,
+   "table": "package_access"
+  },
+  {
+   "complete": false,
+   "path": "backups/db/roles.sqlite.gz",
+   "rows": 5,
+   "sha256": "d9e8034244b1b4598aa7b5e82638b7b99d959bb74ca5a1b70d8c7b7f3b997d14",
+   "size": 318,
+   "table": "roles"
+  },
+  {
+   "complete": false,
+   "path": "backups/db/role_permissions.sqlite.gz",
+   "rows": 19,
+   "sha256": "a8491154a60eb106bf4d301ccd645dbe5d4a46d651fa06b378eeda4fe5df9b14",
+   "size": 428,
+   "table": "role_permissions"
+  },
+  {
+   "complete": false,
+   "path": "backups/db/tokens.sqlite.gz",
+   "rows": 45,
+   "sha256": "52918f268cc951ec3573715c9cf017877428252fa1461fd224feb8de991ad21f",
+   "size": 2652,
+   "table": "tokens"
+  },
+  {
+   "complete": false,
+   "path": "backups/db/packages.sqlite.gz",
+   "rows": 9,
+   "sha256": "765fb37b28307df859ae0dee691d5be53517dabe99f21016d1d65f3ec0f1f1cb",
+   "size": 1267,
+   "table": "packages"
+  },
+  {
+   "complete": false,
+   "path": "backups/db/package_maintainers.sqlite.gz",
+   "rows": 6,
+   "sha256": "22a4145887ed31f225a3c348f5842413737e0897c47af927110575959ad0f2ad",
+   "size": 249,
+   "table": "package_maintainers"
+  },
+  {
+   "complete": false,
+   "path": "backups/db/versions.sqlite.gz",
+   "rows": 12,
+   "sha256": "d0e8ca0ce93457260996aef6d0cecc904f57cc6d6d758c8e1c80b5421459f1e9",
+   "size": 2200,
+   "table": "versions"
+  },
+  {
+   "complete": false,
+   "id_max": 19999,
+   "id_min": 0,
+   "path": "backups/db/events-000001.sqlite.gz",
+   "rows": 1367,
+   "sha256": "ec29607454fda6d25514ce2147bdf5585d674eaf5edbece0f4195d848181d15e",
+   "size": 22177,
+   "table": "events"
+  },
+  {
+   "complete": false,
+   "path": "backups/db/reviews.sqlite.gz",
+   "rows": 17,
+   "sha256": "05f43f6d6f8e466f79ba5338f512d0097eb82b450414d89244e35bcabfaddf7d",
+   "size": 444,
+   "table": "reviews"
+  },
+  {
+   "complete": false,
+   "id_max": 19999,
+   "id_min": 0,
+   "path": "backups/db/audit_log-000001.sqlite.gz",
+   "rows": 69,
+   "sha256": "c52cb28a4226f22f14e1e5d3fcdaeed3994b7020c2f8766c8626201adbe383d2",
+   "size": 1840,
+   "table": "audit_log"
+  },
+  {
+   "complete": false,
+   "path": "backups/db/app_settings.sqlite.gz",
+   "rows": 14,
+   "sha256": "5713e35045909748251c1e1a1dfd646e7f6c218bd164b8c2e8ef90cda8781308",
+   "size": 76345,
+   "table": "app_settings"
+  }
+ ],
+ "format": 1,
+ "redaction": {
+  "app_settings": "values of secret-looking keys or secret-looking values are sha256 (not restorable: re-enter them)",
+  "events,audit_log": "free text passed through the credential redactor",
+  "tokens.hash": "already sha256; plain values are hashed",
+  "users.password_hash": "kept only if already a pbkdf2/sha256 hash, else sha256"
+ },
+ "tables": [
+  "app_settings",
+  "audit_log",
+  "avatars",
+  "events",
+  "group_members",
+  "groups",
+  "package_access",
+  "package_maintainers",
+  "packages",
+  "reviews",
+  "role_permissions",
+  "roles",
+  "tokens",
+  "users",
+  "versions"
+ ]
+}
