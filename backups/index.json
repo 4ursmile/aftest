@@ -1,6 +1,6 @@
 {
  "app": "aihub",
- "created": "2026-10-08T16:12:56Z",
+ "created": "2026-10-08T16:13:14Z",
  "engine": "sqlite",
  "events_chunk": 1000,
  "files": [
@@ -134,8 +134,8 @@
    "complete": false,
    "path": "backups/db/app_settings.sqlite.gz",
    "rows": 4,
-   "sha256": "be15945d0c965ddac3e8b45760e08ebb786adea7dbd3b21d5b95b4bb4eefa56b",
-   "size": 369,
+   "sha256": "1f5ef6534b73c0e0b7f306db24e925257870e2fa36ec883d225f0d1928471465",
+   "size": 371,
    "table": "app_settings"
   }
  ],
