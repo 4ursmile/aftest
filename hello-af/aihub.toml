@@ -1,0 +1,23 @@
+# aihub.toml - the manifest. Docs: /#/docs/publishing
+[package]
+name = "hello-af"
+version = "0.1.0"                 # immutable once published; bump it for every release (aihub dev publish --bump patch)
+type = "skill"                   # skill | agent | mcp | tool | setup
+description = "Sample skill for the aftest registry"
+tags = []                         # lowercase words people search for
+readme = "README.md"
+license = "MIT"
+
+[requires]
+commands = []                     # e.g. [{name = "git", hint = "brew install git"}]
+packages = []                     # other hub packages this needs, e.g. ["base-tools>=1.0"]
+os = []                           # empty = all. Or any of: "macos", "linux", "windows"
+
+[[skills]]
+name = "hello-af"
+path = "skills/hello-af"
+
+[git]
+url = "https://github.com/4ursmile/aftest"
+branch = "main"
+subdir = "hello-af"
