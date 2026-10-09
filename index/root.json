@@ -15,7 +15,7 @@
   "h"
  ],
  "count": 7,
- "digest": "7194a2ff8ac91b1f",
+ "digest": "550c692c01b1d615",
  "format": 2,
  "layout": "packages/<sha1(name)[:2]>/<name>.json"
 }
