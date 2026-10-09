@@ -1,12 +1,12 @@
 [package]
 name = "skill-alpha"
-version = "1.0.0"
+version = "1.1.0"
 type = "skill"
 description = "Test skill with a plain string author"
 tags = ["test"]
 readme = "README.md"
 license = "MIT"
-authors = ["Test Dev One"]
+authors = [{ name = "Test Dev Two", email = "two@example.com" }, "Test Dev Four"]
 
 [[skills]]
 name = "skill-alpha"
