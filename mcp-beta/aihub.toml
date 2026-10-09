@@ -1,0 +1,19 @@
+[package]
+name = "mcp-beta"
+version = "1.0.0"
+type = "mcp"
+description = "Test MCP with a table author"
+tags = ["test"]
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "Test Dev Two", email = "two@example.com", url = "https://example.com/two" }]
+
+[[mcp_servers]]
+name = "mcp-beta"
+command = "python3"
+args = ["${PKG}/server.py"]
+[git]
+url = "https://github.com/4ursmile/aftest"
+branch = "authors-test"
+subdir = "mcp-beta"
+

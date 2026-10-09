@@ -1,0 +1,18 @@
+[package]
+name = "skill-alpha"
+version = "1.0.0"
+type = "skill"
+description = "Test skill with a plain string author"
+tags = ["test"]
+readme = "README.md"
+license = "MIT"
+authors = ["Test Dev One"]
+
+[[skills]]
+name = "skill-alpha"
+path = "skills/skill-alpha"
+[git]
+url = "https://github.com/4ursmile/aftest"
+branch = "authors-test"
+subdir = "skill-alpha"
+

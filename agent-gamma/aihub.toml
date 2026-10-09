@@ -1,0 +1,21 @@
+[package]
+name = "agent-gamma"
+version = "1.0.0"
+type = "agent"
+description = "Test agent with two authors"
+tags = ["test"]
+readme = "README.md"
+license = "MIT"
+authors = [
+  "Test Dev One <one@example.com>",
+  { name = "Test Dev Three", url = "https://example.com/three" },
+]
+
+[[agents]]
+name = "agent-gamma"
+path = "agents/agent-gamma.md"
+[git]
+url = "https://github.com/4ursmile/aftest"
+branch = "authors-test"
+subdir = "agent-gamma"
+
