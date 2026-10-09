@@ -3,7 +3,7 @@
   {
    "file": "catalog/0001.json",
    "first": "aihub-guide",
-   "rows": 4
+   "rows": 5
   }
  ],
  "catalog_cols": [
@@ -14,8 +14,8 @@
   "tags",
   "h"
  ],
- "count": 4,
- "digest": "c1fe4fad1f66c500",
+ "count": 5,
+ "digest": "c589f5b27da17ad6",
  "format": 2,
  "layout": "packages/<sha1(name)[:2]>/<name>.json"
 }
