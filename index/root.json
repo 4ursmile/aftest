@@ -2,8 +2,8 @@
  "catalog": [
   {
    "file": "catalog/0001.json",
-   "first": "aihub-guide",
-   "rows": 6
+   "first": "agent-gamma",
+   "rows": 7
   }
  ],
  "catalog_cols": [
@@ -14,8 +14,8 @@
   "tags",
   "h"
  ],
- "count": 6,
- "digest": "1e34565ac9313110",
+ "count": 7,
+ "digest": "7194a2ff8ac91b1f",
  "format": 2,
  "layout": "packages/<sha1(name)[:2]>/<name>.json"
 }
